@@ -9,3 +9,5 @@ if($?>0)
 		python web_fork.py
 	else
 		echo "Já esta ativo"
+	exit
+fi 
