@@ -316,7 +316,7 @@ while True:
                             image = image.convert('RGB')
 
                             # image = image.rotate(90).resize((80*5, 60*5), Image.ANTIALIAS)
-                            image = image.rotate(90).resize((80 * 5, 60 * 5))
+                            image = image.rotate(0).resize((80 * 5, 60 * 5))
 
                             # draw = ImageDraw.Draw(image)
                             # draw.text(text_pos, str(framecounter), fill=tcolor, font=font)
